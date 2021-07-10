@@ -1,0 +1,22 @@
+import java.util.*;
+class oddevenstring
+{
+public static void main(String args[])
+{
+	int i,l=0,n=0,s=0;
+	String str;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter string:");
+	str=sc.next();
+	char ch[]=str.toCharArray();
+	for(i=0;i<ch.length;i=i+2)
+	{
+	System.out.print(ch[i]);
+	}
+	System.out.print(" ");
+	for(i=1;i<ch.length;i=i+2)
+	{
+	System.out.print(ch[i]);
+	}
+}
+}
